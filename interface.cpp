@@ -14,6 +14,12 @@ public:
         std::cout << "Inside Rectangle::draw() method." << std::endl;
     }
 };
+class Square : public Shape {
+public:
+    void draw() override {
+        std::cout << "Inside Square::draw() method." << std::endl;
+    }
+};
 int main()
 {
     
