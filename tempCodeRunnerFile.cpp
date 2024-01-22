@@ -4,10 +4,9 @@
 #include<algorithm>
 #include<cmath>
 using namespace std;
-class Shape {
-public:
-    virtual void draw() = 0;
-};
+public interface Shape{
+    public void draw();
+}
 int main()
 {
     
